@@ -42,7 +42,7 @@ function setup() {
 function draw() {
   background("black");
   textSize(35)
-  text("Score : "+score,20,40);
+  text("Puntuación : "+score,20,40);
   fill("white");
   //text(mouseX + "," + mouseY, 20, 50);
   textSize(35)
@@ -62,8 +62,8 @@ function draw() {
   if ( gameState =="end") {
     
     textSize(100);
-    text("GameOver", 150, 250);
-    //return
+    text("Juego Terminadp", 150, 250);
+    //regresar
   }
 
   
